@@ -1,46 +1,32 @@
-/* Universal Styles */
-
 html {
-  font-size: 14px;
-  font-family: "Work Sans", sans-serif;
-  background-color: rgb(255, 242, 242);
+  font-size: 16px;
 }
 
 body {
-  display: block;
+  min-width: 400px;
   background-color: rgb(255, 242, 242);
+  font-family: "Work Sans", sans-serif;
+  color: rgb(32, 64, 86);
+}
+
+h1 {
+  font-size: 2.1875rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.875rem;
+  color: rgb(74, 74, 74);
 }
 
 .container {
   padding-top: 5.25rem;
-  height: auto;
-  background-color: rgb(255, 242, 242);
 }
-
-div {
-  display: block;
-}
-
-/* Game Rules */
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: rgb(32, 64, 86);
-  padding-bottom: 1rem;
-}
-
-h2 {
-  font-size: 1rem;
-  font-weight: bold;
-  margin: 1rem 0 0.5rem 0;
-}
-
-p {
-  color: rgb(74, 74, 74);
-}
-
-/* Game Cards */
 
 .card {
   display: flex;
